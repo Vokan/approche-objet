@@ -7,9 +7,11 @@ class TestPersonne {
 
 	public static void main(String[] args) {
 		
-		AdressePostale emp = new AdressePostale (2, "lala", 4, "Stras");
+		AdressePostale emp = new AdressePostale (2, "Lansberg", 67100, "Strasbourg");
 		Personne enp = new Personne ("Kocak","Vokan",emp);
-		
+		enp.afficherNomPrenom();
+		enp.modifPrenom("Richard");
+		enp.modifNom("Taffou");
 		enp.afficherNomPrenom();
 		
 		
