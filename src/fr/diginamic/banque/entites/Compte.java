@@ -2,26 +2,29 @@ package fr.diginamic.banque.entites;
 
 public class Compte {
 
-private int numeroDeCompte;
+private String numeroDeCompte;
 private int soldeDuCompte;
 
 
 
-public Compte(int numeroDeCompte, int soldeDuCompte) {
+public Compte(String numeroDeCompte, int soldeDuCompte) {
 	super();
 	this.numeroDeCompte = numeroDeCompte;
 	this.soldeDuCompte = soldeDuCompte;
 }
+// Overide
+public String toString () {
+	return numeroDeCompte +" "+ soldeDuCompte;
+}
 
-
-
-public int getNumeroDeCompte() {
+// getter et setter des attribut.
+public String getNumeroDeCompte() {
 	return numeroDeCompte;
 }
 
 
 
-public void setNumeroDeCompte(int numeroDeCompte) {
+public void setNumeroDeCompte(String numeroDeCompte) {
 	this.numeroDeCompte = numeroDeCompte;
 }
 
