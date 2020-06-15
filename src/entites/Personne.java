@@ -19,7 +19,7 @@ public class Personne {
 	}	
 	// méthodes qui modifie nom lePrenom et adresse
 	public void modifNom (String nvNom) {
-		nom =nvNom;
+		 nom =nvNom;
 	}
 
 	public void modifPrenom (String nvPrenom) {

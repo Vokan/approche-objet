@@ -15,16 +15,6 @@ class TestPersonne {
 		enp.afficherNomPrenom();
 		
 		
-	//	Personne p = new Personne();
-	//	p.nom = "Kocak";
-	//	p.lePrenom ="Vokan";
-		
-	//	p.adresse = new AdressePostale();
-		
-	//	p.adresse.numeroDeRue = 5;
-		
-		
-	//  Personne p2 = new Personne();
 	}
 
 }

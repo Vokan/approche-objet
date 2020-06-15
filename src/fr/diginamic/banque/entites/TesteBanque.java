@@ -6,7 +6,7 @@ package fr.diginamic.banque.entites;
 public class TesteBanque {
 
 	public static void main(String[] args) {
-		Compte premierCompte = new Compte("4598", 300000); //instance crée de la classe Compte po
+		Compte premierCompte = new Compte("4598", 300000); //instance crée de la classe Compte 
 			System.out.print(premierCompte);
 	
 		Compte[] comptes = new Compte [2];

@@ -10,9 +10,9 @@ class TestAdressePostale {
 	
 			
 				//	AdressePostale a = new AdressePostale();
-	//	a.numeroDeRue = 5;
+				//	a.numeroDeRue = 5;
 		
-	//TestAdressePostale a2 = new TestAdressePostale();
+				//TestAdressePostale a2 = new TestAdressePostale();
 	}
 
 }
