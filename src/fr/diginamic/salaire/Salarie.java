@@ -32,9 +32,8 @@ public class Salarie extends Intervenant{
 	@Override
 	public double getSalaire() {
 		
-		return salaireMensuel;
+		return this.salaireMensuel;
 	}
-
 	
 	
 }
