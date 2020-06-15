@@ -20,12 +20,15 @@ public class Salarie extends Intervenant{
 	 * @param salaireMensuel
 	 */
 	
-	// 0verride
+	
 	// Constructeur
 	public Salarie(double salaireMensuel,String nom, String prenom) {
 		super(nom,prenom);
+		this.nom=nom;
+		this.prenom=prenom;
 		this.salaireMensuel = salaireMensuel;
 	}
+	
 
 	// methode que retourne salaire.
 
@@ -33,6 +36,13 @@ public class Salarie extends Intervenant{
 	public double getSalaire() {
 		
 		return this.salaireMensuel;
+	}
+
+	// methonde qui retourne le statut
+	@Override
+	public String getStatus() {
+		
+		return "Salarié";
 	}
 	
 	
