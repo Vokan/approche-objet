@@ -36,6 +36,7 @@ public class Maison {
 				
 				table[table.length]=nouvellePiece;
 				
+				
 				piece = table;
 				
 				System.out.println("ajoute de la piece réussi");

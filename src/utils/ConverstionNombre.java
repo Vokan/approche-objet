@@ -3,10 +3,12 @@ package utils;
 public class ConverstionNombre {
 	
 	public static void main ( String []args) {
-	
-		String entier ="1000";
-		int resultat = Integer.parseInt(entier);
 		
+		
+		
+		String entier ="1000";
+		int resultat = Integer.parseInt(entier);		// la méthode parseInte () permet de 
+														// convertir un string en int.
 		int a = 0;
 		int b = 1;
 		
